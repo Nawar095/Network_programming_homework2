@@ -1,0 +1,12 @@
+{% extends "index.html" %}
+
+{% block content %}
+<div class="jumbotron">
+    <a class="tishreen_logo" href="/"><img src="{{ url_for('static', filename='img/tishreen_logo_01.png') }}" style="float:right;"></a>
+    <h1 class="display-4">Welcome to our Website!</h1>
+    <p class="lead">This is a simple website built using Flask, HTML, CSS, and Bootstrap.</p>
+    <hr class="my-4" style="width:60%;text-align:left;margin-left:0">
+    <p>Use the navigation bar to explore different pages!</p>
+    <a class="btn btn-primary btn-lg" href="/learn_more" role="button">Learn more</a>
+</div>
+{% endblock %}

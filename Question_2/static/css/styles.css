@@ -1,0 +1,25 @@
+body {
+    padding-top: 56px;
+}
+
+
+.navbar {
+    margin-bottom: 20px;
+    
+}
+.nav-link
+{
+    color: #0F487D !important;
+    font-weight: 600;
+    margin-left: 30px;
+}
+
+
+.jumbotron {
+    background-color: #f8f9fa;
+}
+
+.card {
+    margin-bottom: 20px;
+}
+
